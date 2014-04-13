@@ -5,6 +5,9 @@ MicrosoftRedesign::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
+  #Website
+  root 'pages#landing'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
