@@ -3,74 +3,74 @@ html {
     	text-rendering: optimizeLegibility
     }
     html, body,  .product_slider_main { height: 100%;}
-    
+
     body {
     	margin-top: 100px;
     	color: white;
     	background: black;
     }
-    
+
     *, *:after, *:before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     }
-    
-    
+
+
     #body_outline {
     	height: 100%;
-    	
+
     }
-    
+
     .ha-header-perspective > div {
-    	background: rgba(255, 255, 255, .95); 
-    	
+    	background: rgba(255, 255, 255, .95);
+
     }
-    
- 
+
+
 	.big_header {
 		width: 100%;
 		min-height: 600px;
-		background: black url('images/xbox.jpg') no-repeat center;
-		
+		background: black url('xbox.jpg') no-repeat center;
+
 		background-size: cover;
 	}
-	
+
 	img {
 		max-height: 100%;
 		max-width: 100%;
 	}
-	
-	
-	
+
+
+
 	nav a:nth-child(1) {
 		color: #FFB901;
 	}
-	
+
 	nav a:nth-child(2) {
 		color: #00A1F1;
 	}
-	
+
 	nav a:nth-child(3) {
 		color: #F65314;
 	}
-	
+
 	nav a:nth-child(4) {
 		color: #7CBB00;
 	}
-	
+
 	.header_product_info {
 		position: absolute;
 		right: 3%;
 		top: 40px;
 		text-align: right;
 	}
-	
+
 	.header_product_info h1 {
 		font-family: ProximaNovaLight;
 		font-size: 70px;
 	}
-	
+
 	.header_product_info p {
 		margin-top: 60px;
 		font-family: ProximaNovaReg;
@@ -79,16 +79,16 @@ html {
 		position: absolute;
 		right: 0px;
 		color: #bdc3c7;
-		
+
 	}
-	
+
 	.xbox_bar {
 		background: #107C10;
 		width: 30px;
 		height: 10px;
 		float: right;
 		border-radius: 30px;
-	
+
 	}
 	.xbox_button {
 		background: none;
@@ -101,22 +101,22 @@ html {
 		font-size: 20px;
 		text-transform: uppercase;
 		letter-spacing: 1px;
-		
+
 		border-radius: 10px;
 		padding: 10px;
 		-webkit-transition: all 0.5s;
 		-moz-transition: all 0.5s;
 		-o-transition: all 0.5s;
 		transition: all 0.5s;
-		
+
 	}
-	
+
 	.xbox_button:hover {
 		background: #107C10;
 		padding-left: 50px;
-		
+
 	}
-	
+
 	#product_sections {
 		list-style: none;
 		margin: 0;
@@ -128,9 +128,9 @@ html {
 		box-sizing: border-box;
 		display: table;
 		width: 100%;
-	
+
 	}
-	
+
 	.item {
 	float: left;
 	width: 50%;
@@ -138,80 +138,80 @@ html {
 	position: relative;
 	overflow: hidden;
 	display: table-cell;
-	
+
 	}
-	
+
 	.surface {
 		background: #534588;
 	}
-	
+
 	.lumia {
 		background: #E81123;
 	}
-	
+
 	.gaming {
 		background: #107C10;
 	}
-	
+
 	.windows8 {
 		background: #6dc2e9;
 	}
-	
-	
+
+
 	.surfaceimage {
 		position: absolute;
-		background:  url('images/surface.png') no-repeat left top;
+		background:  url('surface.png') no-repeat left top;
 		height: 100%;
 		width: 700px;
 		background-size: 100%;
 		left: 40%;
 		top: 5%;
 	}
-	
+
 	.lumiaimage {
 		position: absolute;
-		background:  url('images/lumia.png') no-repeat left top;
+		background:  url('lumia.png') no-repeat left top;
 		height: 100%;
 		width: 500px;
 		background-size: 100%;
 		left: 40%;
 		top: 5%;
 	}
-	
+
 	.gamingimage {
 		position: absolute;
-		background:  url('images/gaming.png') no-repeat bottom;
+		background:  url('gaming.png') no-repeat bottom;
 		height: 100%;
 		width: 600px;
 		background-size: 100%;
 		right: 0px;
 		bottom: 0%;
-		
+
 	}
 	.gamingdescription {
 		z-index: 1;
 	}
-	
-	
+
+
 	.product_description h1 {
 		font-family: ProximaNovaLight;
 		font-size: 40px;
 	}
-	
+
 	.product_description p {
 		font-family: ProximaNovaBold;
 		font-size: 20px;
-	} 
-	
+	}
+
 	.product_description {
 		position: absolute;
 		left: 6%;
 		top: 30%;
 		z-index: 1;
 	}
-	
+
 	.xbox_after {
-		background: url('images/xboxbutton.png') center no-repeat;
+		background: url('xboxbutton.png') center no-repeat;
 		height: 25px;
 		width: 25px;
 		position: absolute;
@@ -222,7 +222,7 @@ html {
 		transition: all 0.5s;
 		opacity: 0;
 	}
-	
+
 	.xbox_button:hover .xbox_after {
 		left: 10px;
 		opacity: 1;
@@ -231,21 +231,21 @@ html {
 		-o-transition: all 0.5s;
 		transition: all 0.5s;
 	}
-	
+
 	.windowsimage {
 		position: absolute;
-		background:  url('images/windows8.1.png') no-repeat bottom;
+		background:  url('windows8.1.png') no-repeat bottom;
 		height: 100%;
 		width: 900px;
 		background-size: 100%;
 		left: 40%;
 		bottom: 0%;
-		
+
 	}
-	
+
 	.product_button {
 		background: none;
-		
+
 		color: white;
 		position: absolute;
 		font-family: ProximaNovaReg;
@@ -260,42 +260,42 @@ html {
 		transition: all 0.5s;
 		border: solid 2px white;
 	}
-	
-	
+
+
 
 	/* Buttons */
-	
+
 	.surfacebutton:hover {
 		background: white;
 		color: #534588;
 	}
-	
-	
+
+
 	.lumiabutton:hover {
 		background: white;
 		color: #E81123;
 	}
-	
+
 	.windowsbutton:hover {
 		background: white;
 		color: #6dc2e9;
 	}
-	
+
 	.gamingbutton:hover {
 		background: white;
 		color: #107C10;
 	}
-	
+
 	.titanfall_trailer {
-		
+
 		position: relative;
 	}
-	
+
 
 #player-overlay {
 	right: 0; top: 0;
 	width: 100%;
-	
+
 	background-size: contain;
 }
 
@@ -310,9 +310,9 @@ html {
 	-o-transition: -o-transform 0.3s;
 	margin-bottom: 400px;
 	z-index: 200;
-	
+
 }
-	
+
 .titanfall_text {
 	text-align: center;
 	padding: 20px;
@@ -346,13 +346,13 @@ html {
 }
 
 .bing_wrapper {
-	background: url('images/bing.jpg') center no-repeat;
+	background: url('bing.jpg') center no-repeat;
 	width: 100%;
 	height: 100%;
 	padding: 100px 0 100px 0;
 	height: 400px;
 	background-size: cover;
-	
+
 }
 
 .bing_text_area {
@@ -381,7 +381,7 @@ html {
 	left: 0;
 	background: rgba(153,204,51,0.9);
 	z-index: 20000;
-	
+
 }
 
 /* Overlay closing cross */
@@ -393,7 +393,7 @@ html {
 	top: 20px;
 	overflow: hidden;
 	border: none;
-	background: url(images/cross.png) no-repeat center center;
+	background: url(cross.png) no-repeat center center;
 	text-indent: 200%;
 	color: transparent;
 	outline: none;
@@ -494,7 +494,7 @@ html {
 .categories_nav ul li p {
 	text-transform: uppercase;
 	font-family: ProximaNovaReg;
-	
+
 }
 
 .categories_nav ul li p span {
@@ -559,7 +559,7 @@ html {
 	padding: 100px 0px 100px 20px;
 	height: 400px;
 	background: #FFFFFF url('http://officeimg.vo.msecnd.net/en-us/files/043/199/ZA104221275.jpg') no-repeat center right;
-	
+
 }
 
 .word_items h2 {
@@ -590,4 +590,3 @@ html {
 		width: 100%;
 	}
 }
-

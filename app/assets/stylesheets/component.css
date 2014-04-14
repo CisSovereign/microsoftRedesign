@@ -5,19 +5,19 @@
 @font-face
 {
 font-family: ProximaNovaBold;
-src: url(../fonts/ProximaNova-Bold.otf);
+src: url(ProximaNova-Bold.otf);
 }
 
 @font-face
 {
 font-family: ProximaNovaLight;
-src: url(../fonts/ProximaNova-Light.otf);
+src: url(ProximaNova-Light.otf);
 }
 
 @font-face
 {
 font-family: ProximaNovaReg;
-src: url(../fonts/ProximaNova-Regular.otf);
+src: url(ProximaNova-Regular.otf);
 }
 
 
