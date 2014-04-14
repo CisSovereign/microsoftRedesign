@@ -1,14 +1,146 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MicrosoftRedesign</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
+  <title>Microsoft Redesign</title>
+     <%= stylesheet_link_tag    "component", media: "all", "data-turbolinks-track" => true %>
+     <%= javascript_include_tag "modernizr.custom", "data-turbolinks-track" => true %>
+     <%= stylesheet_link_tag    "page", media: "all", "data-turbolinks-track" => true %>
+
+
 </head>
 <body>
 
 <%= yield %>
 
 </body>
+
+  <!-- JavaScript -->
+
+
+  <%= javascript_include_tag     "jquery-1.10.2", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag     "bootstrap", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag     "waypoints.min", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag     "main", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag     "hammer.min", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag     "classie",  "data-turbolinks-track" => true %>
+  <%= javascript_include_tag     "jquery.cbpContentSlider", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag    "slidemenu", "data-turbolinks-track" => true %>
+
+
+    <script>
+
+    $(document).ready(function(){
+      $('.shop_dropdown').click(function(){
+
+       /* First Nav */
+        $('.categories_nav_class').toggleClass('nav_click');
+      });
+
+      $('.close1').click(function(){
+        $('.categories_nav_class').toggleClass('nav_click');
+      });
+
+      /* Second Nav */
+
+      $('.shop_dropdown2').click(function(){
+        $('.categories_nav_class2').toggleClass('nav_click');
+      });
+
+      $('.close2').click(function(){
+        $('.categories_nav_class2').toggleClass('nav_click');
+      });
+
+      /* Third Nav */
+
+      $('.shop_dropdown3').click(function(){
+        $('.categories_nav_class3').toggleClass('nav_click');
+      });
+
+      $('.close3').click(function(){
+        $('.categories_nav_class3').toggleClass('nav_click');
+      });
+
+       /* Fourth Nav */
+
+       $('.shop_dropdown4').click(function(){
+         $('.categories_nav_class4').toggleClass('nav_click');
+       });
+
+       $('.close4').click(function(){
+         $('.categories_nav_class4').toggleClass('nav_click');
+       });
+
+    });
+
+
+    $('#product_sections').waypoint(function(direction) {
+        if (direction === 'down') {
+        $('#ha-header').addClass('ha-header-small');
+    }
+    else {
+        $('#ha-header').toggleClass('ha-header-small');
+    }
+    });
+
+
+
+
+
+
+        $(function() {
+                /*
+                - how to call the plugin:
+                $( selector ).cbpContentSlider( [options] );
+                - options:
+                {
+                  // default transition speed (ms)
+                  speed : 500,
+                  // default transition easing
+                  easing : 'ease-in-out',
+                  // current item's index
+                  current : 0
+                }
+                - destroy:
+                $( selector ).cbpContentSlider( 'destroy' );
+                */
+
+                $( '#cbp-contentslider' ).cbpContentSlider();
+              });
+
+        $(window).scroll(function() {
+        // The text
+          var $welcomeTxt = $('.big_header');
+
+        //Get scroll position of window
+          var windowScroll = $(this).scrollTop();
+
+        //Slow scroll of social div and fade it out
+          $welcomeTxt.css({
+          'background-position' : "50%" + (windowScroll / 2) + "px"
+
+          });
+        });
+
+
+        $(window).scroll(function() {
+        // The text
+          var $welcomeTxt = $('.header_product_info');
+
+        //Get scroll position of window
+          var windowScroll = $(this).scrollTop();
+
+        //Slow scroll of social div and fade it out
+          $welcomeTxt.css({
+          'opacity' : 1 - (windowScroll / 400)
+
+          });
+        });
+
+
+
+
+
+
+    </script>
+
 </html>
