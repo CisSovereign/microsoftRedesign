@@ -116,7 +116,6 @@
 		font-size: 20px;
 		text-transform: uppercase;
 		letter-spacing: 1px;
-		
 		border-radius: 10px;
 		padding: 10px;
 		-webkit-transition: all 0.5s;
@@ -236,15 +235,13 @@
 		-o-transition: all 0.5s;
 		transition: all 0.5s;
 		opacity: 0;
+		left: 0;
 	}
 	
 	.xbox_button:hover .xbox_after {
 		left: 10px;
 		opacity: 1;
-		-webkit-transition: all 0.5s ease-in-out;
-		-moz-transition: all 0.5s;
-		-o-transition: all 0.5s;
-		transition: all 0.5s;
+	
 	}
 	
 	.windowsimage {
@@ -396,6 +393,7 @@
 	left: 0;
 	background: rgba(153,204,51,0.9);
 	z-index: 20000;
+	font-family: ProximaNovaBold;
 	
 }
 
@@ -408,7 +406,7 @@
 	top: 20px;
 	overflow: hidden;
 	border: none;
-	background: url(images/cross.png) no-repeat center center;
+	background: url(../images/cross.png) no-repeat center center;
 	text-indent: 200%;
 	color: transparent;
 	outline: none;
@@ -446,13 +444,16 @@
 	font-weight: 300;
 	display: block;
 	color: #fff;
-	-webkit-transition: color 0.2s;
-	transition: color 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
 }
 
 .overlay ul li a:hover,
 .overlay ul li a:focus {
-	color: #e3fcb1;
+	opacity: 0.6;
+	text-decoration: none;
 }
 
 /* Effects */
@@ -700,8 +701,12 @@
 	
 }
 
-.menu_buttons_list {
-	
+.menu_buttons_list ul li h3 {
+	font-family: ProximaNovaBold;
+}
+
+.menu_buttons_list ul li p{
+	font-family: ProximaNovaReg;
 }
 
 .menu_buttons_list,  .menu_buttons_list ul {
@@ -716,10 +721,30 @@
 	width: 100%;
 	list-style: none;
 	padding: 10px 30px 10px 30px;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.menu_buttons_list ul li:hover {
+	padding-left: 40px;
 }
 
 .menu_buttons_list ul li:nth-child(1):hover {
-	background: #f5f5f5 url('../images/bg.jpg') no-repeat left top;
+	background: #534588;
+}
+
+.menu_buttons_list ul li:nth-child(2):hover {
+	background: #E81123;
+}
+
+.menu_buttons_list ul li:nth-child(3):hover {
+	background: #107C10;
+}
+
+.menu_buttons_list ul li:nth-child(4):hover {
+	background: #6dc2e9;
 }
 
 

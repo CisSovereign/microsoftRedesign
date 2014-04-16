@@ -6,13 +6,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Microsoft | Online</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <link rel="stylesheet" type="text/css" href="css/application.css" />
  	<script src="js/modernizr.custom.js"></script> 
+ 	
+ 	<link rel="shortcut icon" href="images/favicon.ico"> 
 
 
   </head>
@@ -47,7 +49,12 @@
   	<ul>
   		<li>
   			<p>Shop <span>Surface</span></p>
-    	</li>
+  			<div class="iconmelon">
+  			  <svg viewBox="0 0 32 32">
+  			    <use xlink:href="#icon-id-reference"></use>
+  			  </svg>
+  			</div>
+  		</li>
     	
     	<li>
   			<p>Shop <span>Office</span></p>
@@ -68,19 +75,19 @@
   	<button type="button" class="close_nav_class close2">×</button>
   	<ul>
   		<li>
-  			<p>Shop <span>Surface</span></p>
+  			<p><span>Windows</span></p>
     	</li>
     	
     	<li>
-  			<p>Shop <span>Office</span></p>
+  			<p><span>Office</span></p>
   		</li>
   		
   		<li>
-  			<p>Shop <span>Windows</span></p>
+  			<p><span>Devices</span></p>
   		</li>
   
   		<li>
-  			<p>Shop <span>XBox</span></p>
+  			<p><span>Cloud</span></p>
   		</li>
   
   	</ul>
@@ -90,19 +97,19 @@
   	<button type="button" class="close_nav_class close3">×</button>
   	<ul>
   		<li>
-  			<p>Shop <span>Surface</span></p>
+  			<p>Free <span>Downloads</span></p>
     	</li>
     	
     	<li>
-  			<p>Shop <span>Office</span></p>
+  			<p>Internet <span>Explorer</span></p>
   		</li>
   		
   		<li>
-  			<p>Shop <span>Windows</span></p>
+  			<p>Free <span>Trials</span></p>
   		</li>
   
   		<li>
-  			<p>Shop <span>XBox</span></p>
+  			<p>Download <span>Center</span></p>
   		</li>
   
   	</ul>
@@ -112,19 +119,19 @@
   	<button type="button" class="close_nav_class close4">×</button>
   	<ul>
   		<li>
-  			<p>Shop <span>Surface</span></p>
+  			<p>By <span>Resource</span></p>
     	</li>
     	
     	<li>
-  			<p>Shop <span>Office</span></p>
+  			<p>By <span>Product</span></p>
   		</li>
   		
   		<li>
-  			<p>Shop <span>Windows</span></p>
+  			<p>By <span>Topic</span></p>
   		</li>
   
   		<li>
-  			<p>Shop <span>XBox</span></p>
+  			<p>By <span>Audience</span></p>
   		</li>
   
   	</ul>
@@ -261,11 +268,11 @@
    	<button type="button" class="overlay-close">Close</button>
    	<nav>
    		<ul>
-   			<li><a href="#">Home</a></li>
-   			<li><a href="#">About</a></li>
-   			<li><a href="#">Work</a></li>
-   			<li><a href="#">Clients</a></li>
-   			<li><a href="#">Contact</a></li>
+   			<li><a href="#">Meet Xbox One</a></li>
+   			<li><a href="#">Gaming</a></li>
+   			<li><a href="#">Multiplayer</a></li>
+   			<li><a href="#">Entertainment</a></li>
+   			<li><a href="#">Innovation</a></li>
    		</ul>
    	</nav>
    </div>
@@ -442,6 +449,12 @@
 			}); 
 					
 				
+	</script>
+	
+	<script>
+	  var url ='icons.svg';
+	  var c=new XMLHttpRequest(); c.open('GET', url, false); c.setRequestHeader('Content-Type', 'text/xml'); c.send();
+	  document.body.insertBefore(c.responseXML.firstChild, document.body.firstChild)
 	</script>
 	
 	
