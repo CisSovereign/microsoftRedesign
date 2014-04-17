@@ -1,4 +1,14 @@
 @import url(http://weloveiconfonts.com/api/?family=typicons);
+
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
     
     /* typicons */
     [class*="typicons-"]:before {
@@ -104,6 +114,17 @@
 		float: right;
 		border-radius: 30px;
 	
+	}
+	
+	.ender_bar {
+		width: 30px;
+		height: 10px;
+		border-radius: 30px;
+		background: #107C10;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		
 	}
 	.xbox_button {
 		background: none;
@@ -560,15 +581,39 @@
 
 
 .footer_final {
-	text-align: left;
+	text-align: center;
 	padding: 50px 0 50px 0;
-	background: black;
 	height: 400px;
 	position: fixed;
 	width: 100%;
 	bottom: 0;
 	z-index: 10;
+	background: #95a5a6;
 }
+
+.footer_final h1{
+	font-family: ProximaNovaBold;
+}
+
+.footer_final h3 {
+	font-family: ProximaNovaLight;
+}
+
+.footer_final p, ul, li {
+	font-family: ProximaNovaReg;
+}
+
+.footer_final ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.footer_final ul li {
+	display: inline-block;
+}
+
 
 .word_items {
 	text-align: left;
@@ -747,6 +792,47 @@
 	background: #6dc2e9;
 }
 
+.footer_word_buttons button:nth-child(1) {
+	background: none;
+	font-family: ProximaNovaReg;
+	font-size: 20px;
+	letter-spacing: 1px;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 20px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	border: solid 2px black;
+	
+}
+
+.final_footer_list li{
+	font-size: 2.0em;
+	padding: 10px 5px 10px 5px;
+}
+
+.final_footer_list li:nth-child(1):hover {
+	color: #ea4c89;
+}
+
+.final_footer_list li:nth-child(2):hover {
+	color: #1AB2E8;
+}
+
+.final_footer_list li:nth-child(3):hover {
+	color: #4183c4;3FA9F5
+}
+
+.final_footer_list li:nth-child(4):hover {
+	color: #3FA9F5;
+}
+
+
+.spncl {
+	font-size: 3.5em;
+}
 
 @media screen and (max-height: 30.5em) {
 	.overlay nav {
