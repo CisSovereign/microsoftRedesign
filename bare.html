@@ -46,16 +46,28 @@
   <div class="footer_final">
   	<h1>Thanks for visiting</h1>
   	<h3>Read more about the process on Medium</h3>
-  	<h3>Contribute/change/fork on Github</h3>
+  	<h3>Contribute/change/fork on <a href="https://github.com/CisSovereign/microsoftRedesign">Github</a></h3>
   	<br />
   	<div class="ender_bar"></div>
   	<p>Collin Hartigan</p>
   	<ul class="final_footer_list">
-  		<li class="entypo-dribbble"></li>
-  		<li class="entypo-twitter"></li>
-  		<li class="entypo-github"></li>
-  		<li class="entypo-user"></li>
+  		<a href="https://dribbble.com/collinhartigan"><li class="entypo-dribbble"></li></a>
+  		<a href="https://twitter.com/CollinHartigan"><li class="entypo-twitter"></li></a>
+  		<a href="https://github.com/CisSovereign"><li class="entypo-github"></li></a>
+  		<a href="http://collinhartigan.com/"><li class="entypo-user"></li></a>
   	</ul>
+  	
+  	
+  	<div class="ballgroupbottom">
+  		<div></div>
+  		<div></div>
+  		
+  		<div></div>
+  		<div></div>
+  	
+  	</div>
+  	
+  	
   </div>
   
   <header id="ha-header" class="ha-header ha-header-large" style="z-index: 1000;">
@@ -78,20 +90,24 @@
   	<ul>
   		<li>
   			<p>Shop <span>Surface</span></p>
+  			<span class="entypo-doc-text-inv spncl"></span>
   	
   		</li>
     	
     	<li>
   			<p>Shop <span>Office</span></p>
+  			<span  class="icon icon-office"></span>
+  			
   		</li>
   		
   		<li>
   			<p>Shop <span>Windows</span></p>
-  			<span class="zocial-windows spncl"></span>
+  			<span class="icon icon-windows"></span>
   		</li>
   
   		<li>
   			<p>Shop <span>XBox</span></p>
+  			<span  class="icon icon-xbox"></span>
   		</li>
   
   	</ul>
@@ -102,11 +118,12 @@
   	<ul>
   		<li>
   			<p><span>Windows</span></p>
-  			<span class="zocial-windows spncl"></span>
+  			<span class="icon icon-windows"></span>
     	</li>
     	
     	<li>
   			<p><span>Office</span></p>
+  			<span  class="icon icon-office"></span>
   		</li>
   		
   		<li>
@@ -292,6 +309,18 @@
     	</div>
     
     </div>
+    
+    <div class="hi_im_cortana">
+    	<div class="cortana_inner">
+    	
+    		<div class="ball-1">
+    			<p class="cortana_text">Meet</p>
+    		
+    		</div>
+    	
+    	</div>
+    
+    </div>
   
 
       
@@ -418,6 +447,11 @@
 	   
 	   $('.menu_buttons_ptwo').click(function(){
 	     $('.menu_buttons_big').toggleClass('menu_buttons_big_added');
+	   });
+	   
+	   /* Zoom Button switch */
+	   $('.typicons-zoomIn').click(function(){
+	     $(this).toggleClass('typicons-times');
 	   });
 	  
 	});
