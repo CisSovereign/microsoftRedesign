@@ -77,7 +77,7 @@
     	-webkit-font-smoothing: antialiased;
     	text-rendering: optimizeLegibility
     }
-    html, body,  .product_slider_main { height: 100%;}
+ .product_slider_main { height: 100%;}
     
     body {
     	margin-top: 100px;
