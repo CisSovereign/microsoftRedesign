@@ -110,6 +110,13 @@
 		
 		background-size: cover;
 	}
+	.big_header_small {	
+	
+	width: 100%;
+	min-height: 400px;
+	background: black url('../images/xbox.jpg') no-repeat center;
+	display: none;
+	}
 	
 	img {
 		max-height: 100%;
@@ -387,10 +394,6 @@
 	width: 100%;
 	
 	background-size: contain;
-}
-
-.video_description {
-	position: absolute;
 }
 
 #body_wrap {
@@ -1151,4 +1154,40 @@
 	.item {
 		width: 100%;
 	}
+}
+
+@media (max-width: 700px) {
+	.ha-header-perspective nav a{
+		font-size: 1.0em;
+		margin: 0px;		
+	}
+	.ha-header nav {
+		font-size: 100%;;
+	}
+	.product_description, .bing_text {
+		max-width: 200px;
+	}
+	.word_items h1, .word_items p {
+		max-width: 200px;
+	}
+	
+	.lumiaimage, .surfaceimage, .windowsimage {
+		left:  60%;
+		
+	}
+	.gamingdescription {
+		top: 0%;
+	}
+	.word_items {
+		background: white;
+	}
+	
+	.big_header {
+		display: none;
+	}
+	
+	.big_header_small {
+		display: block;
+	}
+	
 }
