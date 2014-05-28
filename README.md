@@ -12,17 +12,19 @@ One observation I’d had about Microsoft was that they felt too buttoned up, to
 I divided the page up into 3 sections:
 
 Main Header
+
 Product Body
+
 Large Footers
 
 Going on the rule of 3 is always good. Enough information to entice a viewer and easy enough to digest in a pass or two.
 
 
-Main Header
+[Main Header](https://d262ilb51hltx0.cloudfront.net/max/1095/1*SnMpj6IalnBvLCDLRkYO1w.png)
 
-Product Body
+[Product Body](https://d262ilb51hltx0.cloudfront.net/max/877/1*op-5x6mm8rAWVZQtKcDmnQ.png)
 
-Large Footers
+[Large Footers](https://d262ilb51hltx0.cloudfront.net/max/700/1*b2TAZGO73gIwfJWMY99liw.png)
 
 ##Menus Everywhere!
 One of the other important factors in these large sites is navigation. My solution was to implement a series of 3 different sub-menus along with the simple main navigation. Perhaps too many but it works for this purpose.
@@ -57,7 +59,8 @@ XBOX One
 Titan Fall XBOX Combo
 
 Nokia Lumia
-Final Thoughts
+
+##Final Thoughts
 I did make sure to include some fun animation on the page in the footer as well as a full background video for the Titanfall section. I do enjoy the use of those even practical shopping sites like Mircrosoft’s.
 
 While this is a fictional work and not a real Microsoft site, it is encouraging to see these types of projects being done with now. They’re great inspirational pieces to work from.
@@ -67,7 +70,11 @@ The site is live here: http://collinhartigan.com/microsoft-redesign/
 And here is some of my personal information:
 
 Dribbble: https://dribbble.com/collinhartigan
+
 Twitter: https://twitter.com/CollinHartigan
+
 Github: https://github.com/CisSovereign
+
 Personal: http://collinhartigan.com/
-Thanks!
+
+###Thanks!
