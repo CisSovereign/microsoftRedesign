@@ -32,12 +32,14 @@ One of the other important factors in these large sites is navigation. My soluti
 The main menu is simple, consisting of 4 different sections and a search bar. These navigate the simple high-level areas of the site.
 
 
-Desktop Version
+![Desktop Version](https://d262ilb51hltx0.cloudfront.net/max/1200/1*BKu-Nnfp-DAPRhg7yMW2aw.png)
 
-Mobile Version (No Hamburger!)
+![Mobile Version (No Hamburger!)](https://d262ilb51hltx0.cloudfront.net/max/800/1*cyyaj-0FM004syry9sejpA.png)
+
 The first sub-menu (shown below) is actually a child of the above menu. Each section of the menu is outfitted with a custom font icon and description of what is to be found in each section.
 
-
+![Menu](https://d262ilb51hltx0.cloudfront.net/max/1102/1*Sy9SjpAvndgnHXexdoZwdQ.png)
+![Menu](https://d262ilb51hltx0.cloudfront.net/max/1102/1*WZtLqGC6YcC0dAh9vsz4Xg.png)
 
 A few of the fonts are hand made while the bulk being provided by Font Awesome.
 
