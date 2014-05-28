@@ -1157,6 +1157,10 @@
 }
 
 @media (max-width: 700px) {
+	p {
+		font-size: 1.3em;
+	}
+
 	.ha-header-perspective nav a{
 		font-size: 1.0em;
 		margin: 0px;		
@@ -1189,5 +1193,23 @@
 	.big_header_small {
 		display: block;
 	}
+	#player-overlay {
+		display: none;
+	}
+	
+	.titanfall_text {
+		padding: 30px 0 30px 0;
+		position: relative;
+		max-width: 80%;
+		margin: 0 auto;
+		text-shadow: 0 -1px 5px rgba(0,0,0,0.8);
+	
+	}
+	.titanfall_trailer {
+		background:  url('../images/titanfall.jpg') no-repeat left center;
+		padding: 50px 0 50px 0;
+		background-size: cover;
+	}
 	
 }
+
