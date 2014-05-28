@@ -11,11 +11,11 @@ One observation I’d had about Microsoft was that they felt too buttoned up, to
 
 I divided the page up into 3 sections:
 
-Main Header
+* Main Header
 
-Product Body
+* Product Body
 
-Large Footers
+* Large Footers
 
 Going on the rule of 3 is always good. Enough information to entice a viewer and easy enough to digest in a pass or two.
 
@@ -46,9 +46,9 @@ A few of the fonts are hand made while the bulk being provided by Font Awesome.
 The rest of the menus are full screen modals that respond to each corresponding section.
 
 
-XBOX Menu
+![XBOX Menu](https://d262ilb51hltx0.cloudfront.net/max/1099/1*Et60DlVTul7XXjyJA7mHWA.png)
 
-Product sub-menus
+![Product sub-menus](https://d262ilb51hltx0.cloudfront.net/max/1103/1*3qK7VPoaVSegFU4D5rE_2g.png)
 
 ##Imagery
 One of the real strengths of Apple’s website is their stunning images. Clear and crisp, the photos enhance the products themselves without using much text at all. Microsoft really struggles with this.
@@ -56,11 +56,11 @@ One of the real strengths of Apple’s website is their stunning images. Clear a
 I made an effort to bring the products more to the center of the site. All images used of products were taken directly from the images currently on the Microsoft site, just repurposed in a more compelling manner.
 
 
-XBOX One
+![XBOX One](https://d262ilb51hltx0.cloudfront.net/max/1200/1*5nzAxQRT9mnnbd2biiLATA.jpeg)
 
-Titan Fall XBOX Combo
+![Titan Fall XBOX Combo](https://d262ilb51hltx0.cloudfront.net/max/900/1*_kuUALHoDr6yZRyQzd1jGQ.png)
 
-Nokia Lumia
+![Nokia Lumia](https://d262ilb51hltx0.cloudfront.net/max/800/1*rtmu6K41eCHiKoa9IYoiAA.png)
 
 ##Final Thoughts
 I did make sure to include some fun animation on the page in the footer as well as a full background video for the Titanfall section. I do enjoy the use of those even practical shopping sites like Mircrosoft’s.
@@ -71,12 +71,12 @@ The site is live here: http://collinhartigan.com/microsoft-redesign/
 
 And here is some of my personal information:
 
-Dribbble: https://dribbble.com/collinhartigan
+* Dribbble: https://dribbble.com/collinhartigan
 
-Twitter: https://twitter.com/CollinHartigan
+* Twitter: https://twitter.com/CollinHartigan
 
-Github: https://github.com/CisSovereign
+* Github: https://github.com/CisSovereign
 
-Personal: http://collinhartigan.com/
+* Personal: http://collinhartigan.com/
 
 ###Thanks!
