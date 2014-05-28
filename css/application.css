@@ -1143,11 +1143,9 @@
 @media screen and (max-height: 30.5em) {
 	.overlay nav {
 		height: 70%;
-		font-size: 34px;
+	
 	}
-	.overlay ul li {
-		min-height: 34px;
-	}
+	
 }
 
 @media (max-width: 600px) {
@@ -1155,6 +1153,51 @@
 		width: 100%;
 	}
 }
+
+@media (max-width: 900px) {
+	.titanfall_text {
+	padding: 30px 0 30px 0;
+	position: relative;
+	max-width: 80%;
+	margin: 0 auto;
+	text-shadow: 0 -1px 5px rgba(0,0,0,0.8);
+
+	}
+	.titanfall_trailer {
+	background:  url('../images/titanfall.jpg') no-repeat left center;
+	padding: 50px 0 50px 0;
+	background-size: cover;
+	}
+	#player-overlay {
+		display: none;
+	}
+	
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+
+.titanfall_text {
+	padding: 30px 0 30px 0;
+	position: relative;
+	max-width: 80%;
+	margin: 0 auto;
+	text-shadow: 0 -1px 5px rgba(0,0,0,0.8);
+
+	}
+	.titanfall_trailer {
+	background:  url('../images/titanfall.jpg') no-repeat left center;
+	padding: 50px 0 50px 0;
+	background-size: cover;
+	}
+	#player-overlay {
+		display: none;
+	}
+
+}
+
+
 
 @media (max-width: 700px) {
 	p {
@@ -1193,22 +1236,12 @@
 	.big_header_small {
 		display: block;
 	}
-	#player-overlay {
-		display: none;
+
+	.header_product_info h1 {
+		font-size: 34px;
 	}
-	
-	.titanfall_text {
-		padding: 30px 0 30px 0;
-		position: relative;
-		max-width: 80%;
-		margin: 0 auto;
-		text-shadow: 0 -1px 5px rgba(0,0,0,0.8);
-	
-	}
-	.titanfall_trailer {
-		background:  url('../images/titanfall.jpg') no-repeat left center;
-		padding: 50px 0 50px 0;
-		background-size: cover;
+	.header_product_info p {
+		font-size: 20px;
 	}
 	
 }
