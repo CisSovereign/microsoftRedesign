@@ -6,7 +6,7 @@ One of the points I must make is that this is a functioning website/product. All
 
 http://collinhartigan.com/microsoft-redesign/
 
-Let’s Make It Fun
+##Let’s Make It Fun
 One observation I’d had about Microsoft was that they felt too buttoned up, too old school. The amount of information presented on online stores is at times (especially in Microsoft’s case) overkill. My goal wasto simplify this into sections that a user could easily navigate.
 
 I divided the page up into 3 sections:
@@ -14,6 +14,7 @@ I divided the page up into 3 sections:
 Main Header
 Product Body
 Large Footers
+
 Going on the rule of 3 is always good. Enough information to entice a viewer and easy enough to digest in a pass or two.
 
 
@@ -22,7 +23,8 @@ Main Header
 Product Body
 
 Large Footers
-Menus Everywhere!
+
+##Menus Everywhere!
 One of the other important factors in these large sites is navigation. My solution was to implement a series of 3 different sub-menus along with the simple main navigation. Perhaps too many but it works for this purpose.
 
 The main menu is simple, consisting of 4 different sections and a search bar. These navigate the simple high-level areas of the site.
@@ -43,7 +45,8 @@ The rest of the menus are full screen modals that respond to each corresponding 
 XBOX Menu
 
 Product sub-menus
-Imagery
+
+##Imagery
 One of the real strengths of Apple’s website is their stunning images. Clear and crisp, the photos enhance the products themselves without using much text at all. Microsoft really struggles with this.
 
 I made an effort to bring the products more to the center of the site. All images used of products were taken directly from the images currently on the Microsoft site, just repurposed in a more compelling manner.
