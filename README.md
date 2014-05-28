@@ -20,11 +20,11 @@ Large Footers
 Going on the rule of 3 is always good. Enough information to entice a viewer and easy enough to digest in a pass or two.
 
 
-[Main Header](https://d262ilb51hltx0.cloudfront.net/max/1095/1*SnMpj6IalnBvLCDLRkYO1w.png)
+![Main Header](https://d262ilb51hltx0.cloudfront.net/max/1095/1*SnMpj6IalnBvLCDLRkYO1w.png)
 
-[Product Body](https://d262ilb51hltx0.cloudfront.net/max/877/1*op-5x6mm8rAWVZQtKcDmnQ.png)
+![Product Body](https://d262ilb51hltx0.cloudfront.net/max/877/1*op-5x6mm8rAWVZQtKcDmnQ.png)
 
-[Large Footers](https://d262ilb51hltx0.cloudfront.net/max/700/1*b2TAZGO73gIwfJWMY99liw.png)
+![Large Footers](https://d262ilb51hltx0.cloudfront.net/max/700/1*b2TAZGO73gIwfJWMY99liw.png)
 
 ##Menus Everywhere!
 One of the other important factors in these large sites is navigation. My solution was to implement a series of 3 different sub-menus along with the simple main navigation. Perhaps too many but it works for this purpose.
